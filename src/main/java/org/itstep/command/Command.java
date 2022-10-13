@@ -1,5 +1,5 @@
 package org.itstep.command;
 
 public interface Command {
-    void execute(String str);
+    void execute(String... str);
 }
